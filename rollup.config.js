@@ -25,7 +25,6 @@ export default {
       includeDependencies: true,
     }),
     resolve({
-      jsnext: true,
       main: true,
       browser: true,
     }),
