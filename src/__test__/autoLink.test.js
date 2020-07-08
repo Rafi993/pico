@@ -1,6 +1,6 @@
 import pico from "../index";
 
-describe("AUtolink", () => {
+describe("Autolink", () => {
   it("url without protocol", () => {
     expect(pico("www.google.com")).toEqual(
       `<a href="www.google.com">www.google.com</a>`
