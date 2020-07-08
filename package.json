@@ -1,7 +1,7 @@
 {
   "name": "pico-markdown",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convert Markdown like syntax to HTML",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "jsnext:main": "dist/index.mjs",
@@ -10,9 +10,15 @@
     "build:watch": "rollup -c -w",
     "test": "jest --watch --env=jsdom"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Markdown",
+    "Parser",
+    "Markdown-to-HTML",
+    "HTML",
+    "text"
+  ],
+  "author": "rafi993",
+  "license": "MIT",
   "dependencies": {
     "arcsecond": "^2.0.4"
   },
@@ -36,5 +42,13 @@
     "testPathIgnorePatterns": [
       "<rootDir>/cypress/"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafi993/pico.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rafi993/pico/issues"
+  },
+  "homepage": "https://github.com/Rafi993/pico#readme"
 }
