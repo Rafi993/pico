@@ -43,4 +43,4 @@ const htmlOutput = parser(`
 
 ## Spec
 
-Things supported by this parser are listed [here](./spec.md)
+Things supported by this parser are listed [here](./Spec.md)
