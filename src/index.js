@@ -6,14 +6,39 @@ import italic from "./italic";
 import strikeThrough from "./strikeThrough";
 import code from "./code";
 import autoLink from "./autoLink";
+import email from "./email";
 import anything from "./anything";
 
+const choice = A.choice;
+const many = A.many;
+
 const pico = (input) => {
-  return A.many(
-    A.choice([heading, bold, italic, strikeThrough, code, autoLink, anything])
+  return many(
+    choice([
+      heading,
+      bold,
+      italic,
+      strikeThrough,
+      code,
+      email,
+      autoLink,
+      anything,
+    ])
   )
     .run(input)
     .result.join("");
 };
 
 export default pico;
+
+export {
+  choice,
+  many,
+  heading,
+  bold,
+  italic,
+  strikeThrough,
+  code,
+  autoLink,
+  anything,
+};
