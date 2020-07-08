@@ -1,6 +1,6 @@
 {
   "name": "pico-markdown-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert Markdown like syntax to HTML",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -20,6 +20,9 @@
   "author": "rafi993",
   "license": "MIT",
   "dependencies": {
+    "arcsecond": "^2.0.4"
+  },
+  "peerDependencies": {
     "arcsecond": "^2.0.4"
   },
   "devDependencies": {
