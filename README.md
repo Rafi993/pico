@@ -10,13 +10,13 @@ with modules it provided easily
 ## Installation
 
 ```
-$ npm i pico-markdown
+$ npm i pico-markdown-parser
 ```
 
 or
 
 ```
-yarn add pico-markdown
+yarn add pico-markdown-parser
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ You can use your parser as such or you can import sub modules from this parser a
 ### Simple usage
 
 ```javascript
-import pico from "pico-markdown";
+import pico from "pico-markdown-parser";
 
 const htmlOutput = pico(`
   # Hello
@@ -38,7 +38,7 @@ const htmlOutput = pico(`
 ### Advanced usage
 
 ```javascript
-import { choice, many, heading, bold, anything } from "pico-markdown";
+import { choice, many, heading, bold, anything } from "pico-markdown-parser";
 
 // This new parser now supports only bold and heading
 const parser = (input) =>
