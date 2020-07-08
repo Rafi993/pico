@@ -7,6 +7,18 @@ Very small markdown like syntax parser
 This parser allows you to use markdown like syntax or to build your own custom markdown parser
 with modules it provided easily
 
+## Installation
+
+```
+$ npm i pico-markdown
+```
+
+or
+
+```
+yarn add pico-markdown
+```
+
 ## Usage
 
 You can use your parser as such or you can import sub modules from this parser and build your own parser easily
