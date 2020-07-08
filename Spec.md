@@ -11,10 +11,10 @@
 
   ```
 
-- Code block support using backtick
+- Code block support using back tick
 
   ````
-    ``` console.log("test)```
+    ``` console.log("test")```
   ````
 
 - Bold
